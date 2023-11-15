@@ -24,10 +24,7 @@ for speler in game.makeAllPlayers():
 	speler.print_scores()
 
 
-# print(dbbird.getVelden())
 
-
-# print(dbbird.dicInfo((10,20,30,40)))
 
 
 

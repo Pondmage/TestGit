@@ -12,7 +12,7 @@ SORTKEYCON = {'water':0,
 
 def orderscores(scores):
 
-	print(scores)
+	
 
 	lijst = []
 	

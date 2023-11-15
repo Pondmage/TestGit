@@ -14,7 +14,7 @@ def makeAllPlayers():
 	lijstSpelers = db.geefSpelers()
 	for naam in lijstSpelers:
 		scores = db.getPlayerScore(naam)
-		print(scores)
+		
 
 		speler = makePlayer(naam,scores)
 		Spelers.append(speler)
