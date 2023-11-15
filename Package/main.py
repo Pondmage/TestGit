@@ -4,24 +4,28 @@ import Classes.players as players
 
 import BirdGame.game as game
 
-
-
-
-game.reset()
-
-
-Stijn = players.player("Stijn",10,20,30,40)
+import settings
 
 
 
 
-Stijn.dagupdate()
 
 
-game.makeAllPlayers()
+# game.reset()
 
-for speler in game.makeAllPlayers():
-	speler.print_scores()
+
+# Stijn = players.player("Stijn",10,20,30,40)
+
+
+
+
+# Stijn.dagupdate()
+
+
+# game.makeAllPlayers()
+
+# for speler in game.makeAllPlayers():
+# 	speler.print_scores()
 
 
 
@@ -32,6 +36,7 @@ for speler in game.makeAllPlayers():
 # op = players.orderscores(test)
 # print(op)
 
+# dbbird.pdata()
 
 
 

@@ -2,6 +2,8 @@ import sqlite3 # stap 1: importeren
 
 import sys
 
+import settings
+
 
 SCORECOLUMNS = ("water","bos","tuin","zee")
 
@@ -11,7 +13,9 @@ def dicInfo(scores):
 
 	
 	
-
+def pdata():
+	print(settings.DATABASE)
+	print(DATABASE)
 
 
 # import Classes.bird as bird
@@ -122,6 +126,8 @@ def dagupdate_db(name,score):
 		mijncursor.execute(query, parameters)
 
 		dbconnectie.commit()
+
+		dbconnectie.close()
 	
 
 def reset():
